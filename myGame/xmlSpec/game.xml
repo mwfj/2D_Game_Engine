@@ -1,0 +1,294 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Wufangjie Ma's Game</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>wufangm</username>
+
+<collisionStrategy>PerPixel</collisionStrategy>
+
+<view>
+  <width>1280</width>
+  <height>720</height>
+  <loc x="500" y="30"/>
+  <!-- item 4 position -->
+  <loc_fps x="20" y ="650" />
+</view>
+
+<world>
+  <width>5120</width>
+  <height>720</height>
+</world>
+
+<back>
+  <file>assets/forests.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<ground>
+  <file>assets/ground.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</ground>
+ 
+<clouds>
+  <file>assets/clouds.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</clouds>
+
+<hud>
+  <startLoc x="10" y="10"/>
+  <width>445</width>
+  <height>350</height>
+  <sideColor>
+    <r>253</r>
+    <g>14</g>
+    <b>26</b>
+    <a>255</a>
+  </sideColor>
+  <backColor>
+    <r>255</r>
+    <g>255</g>
+    <b>255</b>
+    <a>255</a>
+  </backColor>
+
+  <fontColor>
+    <r>0</r>
+    <g>0</g>
+    <b>0</b>
+    <a>0</a>
+  </fontColor>
+</hud>
+<HealthBar>
+  <startLoc x="600" y="20"/>
+  <!-- number of times the bar is decremented -->
+  <increment>10</increment>
+  <interval>1000</interval>
+  <width>660</width>
+  <height>30</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <backColor>
+    <r>255</r>
+    <g>255</g>
+    <b>255</b>
+    <a>127</a>
+  </backColor>
+  <barColor>
+    <r>255</r>
+    <g>0</g>
+    <b>0</b>
+    <a>255</a>
+  </barColor>
+</HealthBar>
+<font name="font">
+  <file>fonts/Crnagorszkij Buddah Orkesztar.ttf</file>
+  <size>30</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Knight>
+  <file>assets/knight_walking_001.png</file>
+  <startLoc x="0" y="375"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight>
+
+<Knight-inv>
+  <file>assets/knight_walking_002.png</file>
+  <startLoc x="1280" y="375"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight-inv>
+
+<Knight-idle>
+  <file>assets/knight_idling.png</file>
+  <startLoc x="0" y="375"/>
+  <frames>18.5</frames>
+  <frameInterval>35</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight-idle>
+
+<Knight-idle-inv>
+  <file>assets/knight_idling_inv.png</file>
+  <startLoc x="0" y="375"/>
+  <frames>18.6</frames>
+  <frameInterval>35</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight-idle-inv>
+
+<Knight-throwing>
+  <file>assets/knight_throwing.png</file>
+  <frames>12</frames>
+  <frameInterval>1</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight-throwing>
+
+<Knight-throwing-inv>
+  <file>assets/knight_throwing_inv.png</file>
+  <frames>12</frames>
+  <frameInterval>1</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <bulletName>Bullet</bulletName>
+  <transparency>true</transparency>
+</Knight-throwing-inv>
+
+<Knight-idleDying>
+  <file>assets/knight_dying.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>15</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Knight-idleDying>
+
+<Knight-idleDyingInv>
+  <file>assets/knight_dying_inv.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>15</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Knight-idleDyingInv>
+
+<Zombie>
+  <file>assets/zombie1_02.png</file>
+  <startLoc x="5118" y="405"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <safeDistance>150</safeDistance>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Zombie>
+
+<Zombie-inv>
+  <file>assets/zombie1_01.png</file>
+  <startLoc x="500" y="405"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <safeDistance>150</safeDistance>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Zombie-inv>
+
+<ZombieDying>
+  <file>assets/zombie1_dying_inv.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>15</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</ZombieDying>
+
+<ZombieDyingInv>
+  <file>assets/zombie1_dying.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>15</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</ZombieDyingInv>
+
+<Zombie2>
+  <file>assets/zombie2_02.png</file>
+  <startLoc x="5118" y="405"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>250</speedX>
+  <speedY>0</speedY>
+  <safeDistance>150</safeDistance>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Zombie2>
+
+<Zombie2-inv>
+  <file>assets/zombie2_01.png</file>
+  <startLoc x="500" y="405"/>
+  <frames>24</frames>
+  <frameInterval>18</frameInterval>
+  <speedX>250</speedX>
+  <speedY>0</speedY>
+  <safeDistance>150</safeDistance>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Zombie2-inv>
+
+<Bullet>
+  <file>assets/fireball.png</file>
+  <startLoc x="227" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <interval>100</interval>
+  <distance>300</distance>
+  <scale>0.5</scale>
+  <transparency>false</transparency>
+</Bullet>
+
+</GameData>
