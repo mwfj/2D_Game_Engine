@@ -17,10 +17,10 @@
 + Press **A & D** key to go left and right
 + Press **J key** to shoot one fireball, where hold it will do the function of continuous throwing
 + Press **G key** to turn on/off god mode, where in the god mode our character will not take damage
-+ Press **Q** to quit the game
++ Press **Q key** to quit the game
 + Press **R key** to restart the game.
-+ Press **F1** to enable/disable the information hub
-+ Press **F2** to mute/unmute the background music
++ Press **F1 key** to enable/disable the information hub
++ Press **F2 key** to mute/unmute the background music
 
 ### Dead Screenshot
 
