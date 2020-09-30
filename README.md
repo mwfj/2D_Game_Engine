@@ -1,6 +1,6 @@
 # 2D Game Engine
 
-## Project1: Using SDL2 library to draw a Whale##
+## Project1: Using SDL2 library to draw a Whale ##
 
 ### Please go into "whale_sdl" folder to see the detail
 
