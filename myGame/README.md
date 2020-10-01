@@ -36,3 +36,11 @@
 + **Music and Sound**
 + **Blood Hub**
 + **UML Class Diagram**
+
+## Source:
+
++ Zombie 1 and 2 : https://craftpix.net/freebies/free-golems-chibi-2d-game-sprites/
++ Knight: https://craftpix.net/product/spartan-knight-and-warrior-chibi-2d-game-sprites/
++ Ground background: https://craftpix.net/product/pixel-art-forest-2d-backgrounds/
++ Cloud background: https://craftpix.net/product/2d-mountain-backgrounds/
++ Forest background: https://craftpix.net/product/forest-2d-game-backgrounds/
