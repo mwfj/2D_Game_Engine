@@ -6,11 +6,11 @@
 
 ##  Game Mechanics:
 
-### In this game, we will play the role of a knight to kill all the zombie we meet with. Our knight will shoot a fire ball to kill the knight.()
+### In this game, we will play the role of a knight to kill all the zombie we meet with. Our knight will shoot a fire ball to kill the knight.
 
-### Note that: The reason for attacking by throwing fireballs instead of using weapons is purely because of the requires of the course, and the professor requires the function of throwing something.
+### Note that: The reason for attacking by throwing fireballs instead of using weapons is purely because of the requirement of the course, and the professor requires the function of throwing something.
 
-### There has two ways to finish this game, you kill all the zombie you meet with or get killed, where the game will judge you victory if you kill all the zombies, whereas you will lose when you run out of your blood hub. Whenever zombies attack you, your health will be reduced.
+### There has two ways to finish this game, you can kill all the zombie you meet with or get killed, where the game will judge you victory if you kill all the zombies, whereas you will lose when you run out of your blood hub. Whenever zombies attack you, your health will be reduced.
 
 ## Game Control:
 
